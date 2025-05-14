@@ -1,3 +1,5 @@
+
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -53,3 +55,62 @@ export default tseslint.config({
 })
 ```
 "# w14-coding-assignment-react" 
+Assignment Requirements Breakdown
+1. App is a static version 
+You're not using API calls or dynamic state yet.
+
+You're passing test data down through props.
+
+
+2. Includes test data
+Your test data lives in src/data/recipes.ts.
+
+It's an array of recipe objects with id, name, ingredients, and instructions.
+
+
+3. Simple mockup UI
+You created a visual layout using:
+
+A <Header /> component with an image and text
+
+A <RecipeList /> that lists recipe cards
+
+A <RecipeCard /> for each individual recipe
+
+Bootstrap is used for layout and styling.
+
+
+ 4. At least three components
+Header.tsx
+
+RecipeList.tsx
+
+RecipeCard.tsx
+
+Plus your main App.tsx
+
+
+5. Displays test data
+You're importing and rendering data from recipes.ts.
+
+
+6. Uses at least one prop
+RecipeList receives a recipes prop.
+
+RecipeCard receives a recipe prop.
+
+You're using props to display the correct data.
+
+
+7. No red console errors
+As long as everything is typed properly and components are imported correctly, you should see no errors.
+
+
+8. No TypeScript errors in VS Code
+You're using correct types for props and data structure.
+
+Components are correctly typed with React.FC<Props>.
+
+
+
+*This project was designed, manipulated and completed with the help of AI for the Promineo Tech Week 14 assignment.
