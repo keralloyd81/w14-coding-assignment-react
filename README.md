@@ -1,5 +1,5 @@
 "# w14-coding-assignment-react" 
-"# keralloyd81-w14-coding-assignment-react" 
+"# w14-coding-assignment-react" 
 
 ### *This project was designed, manipulated and completed with the help of AI for the Promineo Tech Week 14 assignment.*
 
